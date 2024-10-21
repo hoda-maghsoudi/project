@@ -79,4 +79,19 @@ p{
         padding:0;
         text-align: center;
     }
+    
+}
+        .about-section {
+            padding: 120px 60px;
+        }
+.about-section h1{
+    font-size: 64px;
+    line-height: 80px;
+}
+.about-section h2{
+    font-size: 18px;
+    font-family: var(--default-font-family);
+}
+.about-section-content{
+    margin: 30px;
 }
