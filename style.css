@@ -22,6 +22,9 @@ h6{
     font-family:var(--heading-font-family);
     font-weight: normal;
 }
+footer h4{
+    font-size: 48px;
+}
 .yogurt {
     font-size: 64px;
 }
@@ -79,6 +82,13 @@ p{
         padding:0;
         text-align: center;
     }
+
+    footer .contact-box{
+        padding: 30px;
+    }
+    footer h4{
+        font-size:26px;
+    }
     
 }
 .content-container {
@@ -104,7 +114,43 @@ p{
 .content p{
     font-size: 14px;;
 }
+footer .contact-box{
+    background: var(--primary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
 
-.navbar item{
-padding:0 50px;
+}
+
+footer{
+    margin: 60px 0;
+}
+
+footer .email a{
+text-decoration:none;
+color:black;
+font-size: 24px;
+mar
+}
+
+footer .contact-box p{
+    margin: none;
+}
+
+footer .email a:hover{
+   color: var(--branding-color); 
+}
+
+.social-links a {
+    margin: 0 20px;
+    text-decoration: none;
+    color:var(--branding-color);
+    background: var(--primary-color);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover{
+    color: white;
+    background-color: var(--branding-color);
 }
